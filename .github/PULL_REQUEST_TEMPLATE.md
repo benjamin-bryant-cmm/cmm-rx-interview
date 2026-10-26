@@ -10,4 +10,4 @@
 
 - [ ] Tests pass (`make test`)
 - [ ] Deployed to a staging cluster: <!-- cluster name -->
-- [ ] Changes the schema or stored data. Add the `database` label to this PR and link the approval.
+- [ ] Changes the schema or stored data. Migration file: <!-- path --> Approved by: <!-- name and where -->
