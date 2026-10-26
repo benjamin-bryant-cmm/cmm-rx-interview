@@ -8,8 +8,11 @@ Returns the refills a pharmacy needs to fill on a given date.
 bundle install
 make test
 make run
+make irb
 curl "localhost:8000/pharmacies/1/refills/due?date=2025-03-13"
 ```
+
+`make irb` opens an IRB session with the database and app code loaded. Use `conn` to run queries.
 
 Requires Ruby 3.2 or later.
 
