@@ -14,7 +14,19 @@ curl "localhost:8000/pharmacies/1/refills/due?date=2025-03-13"
 
 `make irb` opens an IRB session with the database and app code loaded. Use `conn` to run queries.
 
-Requires Ruby 3.2 or later.
+Requires Ruby 3.2 or later and a C compiler for some gems.
+
+## Docker
+
+If you don't have Ruby set up, use Docker instead. Edits on your machine show up in the container.
+
+```
+make docker-test
+make docker-run
+make docker-irb
+```
+
+`make docker-run` serves on `localhost:8000`. After changing `Gemfile`, run `make docker-build`.
 
 ## Conventions
 
