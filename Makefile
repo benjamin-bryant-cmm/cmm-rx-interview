@@ -25,5 +25,5 @@ docker-irb:
 	docker compose run --rm app make irb
 
 deploy:
-	@echo "Deploys moved to the console. Ask in #refill-dev for the current link."
+	@echo "Deploys moved to the console. Ask the team in chat for the current link."
 	@exit 1
